@@ -37,7 +37,7 @@ SDK依赖于此标签，请不要在此标签上添加任何样式
 
 在部分浏览器下SDK需要Channel File以便处理跨域的请求。 请将Channel File部署至你的服务器上，内容为：
 
-	<script src="http://337.eleximg.com/337/connect/all.1.0.js"></script>
+	<script src="http://337.eleximg.com/337/connect/all.1.1.js"></script>
 
 Channel文件应被尽可能的缓存，以便提高性能。以下为PHP环境下正确设置缓存行为的代码：
 
@@ -47,7 +47,7 @@ Channel文件应被尽可能的缓存，以便提高性能。以下为PHP环境�
 		 header("Cache-Control: max-age=".$cache_expire);
 		 header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$cache_expire) . ' GMT');
 	 ?>
-	 <script src="http://337.eleximg.com/337/connect/all.1.0.js"></script>
+	 <script src="http://337.eleximg.com/337/connect/all.1.1.js"></script>
 
 请把Elex337.init中的channelUrl属性指向你部署的channel.html地址。channelUrl虽然是可选项，但是强烈建议提供一份。
 
