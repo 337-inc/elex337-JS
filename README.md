@@ -21,7 +21,7 @@
 	     var js, id = 'elex337-jssdk', ref = d.getElementsByTagName('script')[0];
 	     if (d.getElementById(id)) {return;}
 	     js = d.createElement('script'); js.id = id; js.async = true;
-	     js.src = "http://337.eleximg.com/337/connect/all.1.0.js";
+	     js.src = "http://337.eleximg.com/337/connect/all.1.1.js";
 	     ref.parentNode.insertBefore(js, ref);
 	   }(document));
 	</script>
